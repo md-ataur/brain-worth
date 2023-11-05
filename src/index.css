@@ -154,11 +154,11 @@ body {
 }
 
 a.hero-button {
-  background: #7958d0;
+  background: linear-gradient(180deg, #7958d0 0%, #b796fb 100%);
   color: #fff;
   font-weight: bold;
   border-radius: 37px 0px 37px 37px;
-  padding: 20px 80px;
+  padding: 20px 120px;
   font-size: 20px;
   box-shadow: 0px -4px 0px 0px #00000033 inset;
   box-shadow: 0px 0px 50px 0px #4600ff;
@@ -181,7 +181,90 @@ a.hero-button {
   padding: 15px 40px;
   width: 100%;
   font-size: 20px;
-  color: #7B5BD2;
+  color: #7b5bd2;
+}
+
+.quote_area {
+  background: linear-gradient(90deg, #f4edfc 0%, #eeecff 100%);
+  border-radius: 10px;
+  padding: 80px 50px;
+}
+
+.quoteIcon {
+  position: absolute;
+  left: -28px;
+  top: -36px;
+}
+
+.quote-button {
+  display: flex;
+}
+
+.quote-button a {
+  background: linear-gradient(180deg, #fdb209 0%, #fbeb94 100%);
+  color: #fff;
+  font-weight: bold;
+  border-radius: 37px 0px 37px 37px;
+  padding: 20px 100px;
+  width: 350px;
+  text-align: center;
+  font-size: 20px;
+  /* box-shadow: 0px -4px 0px 0px #00000033 inset; */
+  box-shadow: 0px 0px 50px 0px #feb000;
+}
+
+.bg-shape {
+  background: linear-gradient(111.08deg, #c2a2fb 0%, #7958d0 73.8%);
+  clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
+  padding: 95px 20px 60px;
+  position: absolute;
+  top: -160px;
+  z-index: -99;
+  width: 78%;
+  height: 400px;
+}
+
+.bottom_top_content {
+  position: relative;
+  top: -79px;
+}
+
+.footer-section {
+  background: #eae3ff;
+  padding: 106px 0px 20px;
+  position: absolute;
+  top: -120px;
+  z-index: -999;
+  width: 100%;
+}
+
+.footer-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #909090;
+  margin: 0 0 20px;
+}
+
+.footer-content ul li {
+  margin: 0 0 10px;
+}
+
+.footer-content ul li a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #909090;
+}
+
+.address label {
+  display: block;
+  color: #909090;
+}
+
+.copyright-bar {
+  color: #909090;
+  margin: 30px 0 0;
+  padding: 30px 0 0;
+  border-top: 1px solid #7958d0;
 }
 
 @media only screen and (max-width: 767px) {
@@ -274,6 +357,19 @@ a.hero-button {
   .hero-left h1 {
     font-size: 40px;
     line-height: 3.5rem;
+  }
+
+  .quote_area {
+    padding: 40px 30px;
+  }
+
+  .quoteIcon img {
+    width: 120px;
+  }
+
+  .bg-shape {
+    width: 96%;
+    height: 460px;
   }
 }
 
